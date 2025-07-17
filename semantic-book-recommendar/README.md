@@ -55,7 +55,7 @@ books.csv → Data Cleaning → Category Classification → Emotion Analysis →
 ```
 semantic-book-recommender/
 ├── 📄 Core Files
-│   ├── .env.example                 # Template for environment variables
+│   ├── .env                         # Template for environment variables
 │   ├── .gitignore                   # Git ignore file (IMPORTANT!)
 │   ├── README.md                    # This file
 │   └── requirements.txt             # Python dependencies
@@ -64,8 +64,8 @@ semantic-book-recommender/
 │   ├── data_exploration.py          # Data cleaning and exploration
 │   ├── text_classification.py       # Zero-shot classification
 │   ├── sentiment_analysis.py        # Emotion analysis
-│   ├── vector_search.py            # Vector database operations
-│   └── gradio_dashboard.py         # Web interface
+│   ├── vector_search.py             # Vector database operations
+│   └── gradio_dashboard.py          # Web interface
 │
 ├── 📊 Data Files (Generated/Input)
 │   ├── books.csv                   # Input dataset (not included in repo)
@@ -77,10 +77,6 @@ semantic-book-recommender/
 │
 ├── 🖼️ Assets
 │   └── cover-not-found.jpg         # Default book cover image
-│
-├── 🗄️ Vector Databases (Auto-generated)
-│   ├── chroma_db_books/            # OpenAI embeddings vector DB
-│   └── chroma_db_books_hf/         # HuggingFace embeddings vector DB
 │
 └── 🔧 Environment (Ignored)
     ├── .env                        # Your API keys (NEVER commit!)
