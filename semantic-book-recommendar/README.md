@@ -1,12 +1,18 @@
 # 📚 Semantic Book Recommendation System
 
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue)](https://huggingface.co/)
 [![Transformers](https://img.shields.io/badge/transformers-4.21.0-orange.svg)](https://huggingface.co/transformers/)
+[![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector%20Database-orange)](https://www.trychroma.com/)
 [![Gradio](https://img.shields.io/badge/gradio-3.40.0-green.svg)](https://gradio.app/)
 [![LangChain](https://img.shields.io/badge/langchain-0.1.0-red.svg)](https://langchain.readthedocs.io/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 A sophisticated book recommendation system that combines semantic search with emotion analysis to provide personalized book suggestions. The system uses vector embeddings, zero-shot classification, and emotion detection to understand user preferences and recommend books based on content similarity and emotional tone.
+
+## 🌐 Live Demo
+
+Test the recommender: [HuggingFace Space](https://huggingface.co/spaces/nirmanpatel/semantic-book-recommender)
 
 ## 🌟 Features
 
